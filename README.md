@@ -1,43 +1,106 @@
-##🤖 Large Language Model (LLM) Experiments & Workflows
+<hr>
 
-🚀 A hands-on project exploring Large Language Models (LLMs), LangChain workflows, tool integration, structured outputs, and scalable AI pipelines using Python.
+<h1 align="center">🚀 EEC COURSE — LARGE LANGUAGE MODELS (LLM)</h1>
 
-🌟 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" />
+  <img src="https://img.shields.io/badge/Domain-Generative%20AI-purple.svg" />
+  <img src="https://img.shields.io/badge/Focus-LLM%20Engineering-orange.svg" />
+  <img src="https://img.shields.io/badge/Status-Active-success.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+</p>
 
-This repository contains practical implementations and experiments with Large Language Models (LLMs).
+<p align="center">
+  <b>A Structured Learning Repository for Understanding, Building, and Deploying Large Language Models</b>
+</p>
 
-The goal of this project is to understand:
+<p align="center">
+  Theory • Hands-on Implementation • Prompt Engineering • LLM Workflows • Real-World Applications
+</p>
 
-How LLMs work internally
+<hr>
 
-How to build structured AI workflows
+---
 
-How to integrate APIs like Groq
+## 📌 About This Repository
 
-How to design modular and scalable LLM systems
+This repository documents my structured learning journey in **Large Language Models (LLMs)** as part of the EEC Course.
 
-How to handle outputs using structured schemas
+It covers:
 
-This project focuses on real-world AI engineering concepts rather than just basic prompt usage.
+- Core theoretical foundations of LLMs  
+- Transformer architecture concepts  
+- Prompt engineering techniques  
+- Retrieval-Augmented Generation (RAG)  
+- Tool usage & Agents  
+- Practical implementation using Python  
+- Real-world mini projects and experiments  
 
-🧠 Key Concepts Covered
+This repo is designed to serve as:
+- 📚 A learning reference  
+- 🧪 A hands-on experimentation space  
+- 💼 A portfolio-ready showcase  
 
-🔹 LLM Invocation & Prompt Engineering
+---
 
-🔹 Sequential Chains
+## 🧠 Topics Covered
 
-🔹 Conditional Execution
+- Introduction to Generative AI  
+- Evolution of Language Models  
+- Transformers Architecture  
+- Tokenization & Embeddings  
+- LLM Workflows  
+- Prompt Engineering Strategies  
+- RAG (Retrieval-Augmented Generation)  
+- Agents & Tool Calling  
+- Vector Databases  
+- API-based LLM Integration  
+- Mini Projects & Practical Exercises  
 
-🔹 Parallel Workflows
+---
 
-🔹 Custom Tool Creation
+## 🛠️ Tech Stack
 
-🔹 Runnable Patterns
+- Python  
+- Jupyter Notebook  
+- OpenAI / LLM APIs  
+- LangChain (if used)  
+- Vector Databases  
+- Git & GitHub  
 
-🔹 Structured Outputs (Pydantic / TypedDict)
+---
 
-🔹 Secure API Key Handling
+## 📂 Project Structure
+LLM-Project/
+│
+├── main.py              # Entry point
+├── groq_runner.py       # Groq API integration
+├── basics.py            # Basic LLM usage
+├── chain.py             # Sequential chain workflows
+├── conditional.py       # Conditional logic execution
+├── parallel.py          # Parallel runnable examples
+├── customtool.py        # Custom tool integration
+├── runnable.py          # Runnable pattern demonstrations
+├── typeddict.py         # Structured output with TypedDict
+├── pydan2.py            # Pydantic structured model example
+├── tool1.py             # Tool example 1
+├── tool2.py             # Tool example 2
+└── README.md            # Project documentation
 
-🔹 Modular Code Design
+---
 
-📂 Project Structure
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Preethijenitha/EEC-Course---LLM.git
+cd EEC-Course---LLM
+
+### 2️⃣ Create Virtual Environment (Recommended)
+python -m venv venv
+source venv/bin/activate      # Mac/Linux
+venv\Scripts\activate         # Windows
+
+### 3️⃣ Install Dependencies
+pip install -r requirements.txt
