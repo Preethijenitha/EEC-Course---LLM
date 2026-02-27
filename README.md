@@ -1,46 +1,43 @@
-🚀 EEC Course — Large Language Models (LLM)
+##🤖 Large Language Model (LLM) Experiments & Workflows
 
-🔥 Hands-on implementations and structured experiments exploring LLM workflows, LangChain pipelines, Groq API integration, and advanced execution patterns using Python.
+🚀 A hands-on project exploring Large Language Models (LLMs), LangChain workflows, tool integration, structured outputs, and scalable AI pipelines using Python.
 
-🌟 About This Project
+🌟 Project Overview
 
-This repository contains structured experiments and implementations developed during the EEC LLM Course.
+This repository contains practical implementations and experiments with Large Language Models (LLMs).
 
-It demonstrates:
+The goal of this project is to understand:
 
-✨ Prompt Engineering
+How LLMs work internally
 
-✨ LLM Chains & Pipelines
+How to build structured AI workflows
 
-✨ Conditional Execution
+How to integrate APIs like Groq
 
-✨ Parallel Workflows
+How to design modular and scalable LLM systems
 
-✨ Custom Tool Integration
+How to handle outputs using structured schemas
 
-✨ Groq API Usage
+This project focuses on real-world AI engineering concepts rather than just basic prompt usage.
 
-✨ TypedDict & Pydantic Models
+🧠 Key Concepts Covered
 
-✨ Runnable & Lambda Patterns
+🔹 LLM Invocation & Prompt Engineering
 
-This project is designed to build strong foundational and practical knowledge in LLM-based application development.
+🔹 Sequential Chains
 
-🧠 Core Concepts Covered
+🔹 Conditional Execution
 
-🔹 Basic LLM Invocation
+🔹 Parallel Workflows
 
-🔹 Sequential & Conditional Chains
+🔹 Custom Tool Creation
 
-🔹 Parallel Processing with Runnables
+🔹 Runnable Patterns
 
-🔹 Tool Creation & Integration
+🔹 Structured Outputs (Pydantic / TypedDict)
 
-🔹 Environment Variable Security
+🔹 Secure API Key Handling
 
-🔹 Structured Output Handling
-
-🔹 Modular Code Architecture
+🔹 Modular Code Design
 
 📂 Project Structure
-
