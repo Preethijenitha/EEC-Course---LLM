@@ -1,75 +1,100 @@
-##📘 EEC Course — LLM
+🚀 EEC Course — Large Language Models (LLM)
 
-A repository for Large Language Model (LLM) based experiments and examples learned from the EEC Course.
+🔥 A hands-on repository exploring Large Language Models, LangChain workflows, Groq API integration, and advanced execution patterns through practical Python implementations.
 
-##🧠 Overview
+🌟 About This Project
 
-This project contains Python scripts exploring foundational LLM concepts and practical experiments including:
+This repository contains structured experiments and implementations developed during the EEC LLM Course.
 
-🛠️ Prompt engineering basics
+It demonstrates:
 
-🔗 Chain of thought pipelines
+✨ Prompt Engineering
+✨ LLM Chains & Pipelines
+✨ Conditional Execution
+✨ Parallel Workflows
+✨ Custom Tool Integration
+✨ Groq API Usage
+✨ TypedDict & Pydantic Models
+✨ Runnable & Lambda Patterns
 
-🔍 Conditional tools and custom tools
+This project is designed to build strong foundational and practical knowledge in LLM-based application development.
 
-🔄 Parallel execution patterns
+🧠 Core Concepts Covered
 
-🧬 Groq API implementation (secure use via environment variables)
+🔹 Basic LLM Invocation
+🔹 Sequential & Conditional Chains
+🔹 Parallel Processing with Runnables
+🔹 Tool Creation & Integration
+🔹 Environment Variable Security
+🔹 Structured Output Handling
+🔹 Modular Code Architecture
 
-🤖 Sample workflows for LLM-centric functions
-
-⚠️ Note: API keys or other secrets are not included for security.
-
-##📁 Project Structure
-File	Description
-groq_runner.py	Example script integrating Groq API
-main.py	Entry point to run sample tasks
-chain.py	Script demonstrating chained logic
-customtool.py	Implementation of a custom tool/module
-conditional.py	Scripts with conditional execution logic
-others	Supporting experiment scripts
-🚀 Getting Started
-##💡 Prerequisites
-
-Install dependencies (assuming Python 3.9+):
-
+📂 Project Structure
+EEC-Course---LLM/
+│
+├── groq_runner.py      → Groq API integration
+├── main.py             → Entry execution file
+├── chain.py            → Chain workflow examples
+├── conditional.py      → Conditional execution logic
+├── parallel.py         → Parallel LLM execution
+├── customtool.py       → Custom tool implementation
+├── runnable.py         → Runnable patterns
+├── pydan2.py / pydan3.py → Pydantic examples
+├── typeddict.py        → TypedDict usage
+├── tool1.py / tool2.py → Tool demonstrations
+├── basics.py           → LLM fundamentals
+└── README.md           → Project documentation
+⚙️ Installation & Setup
+🔹 Step 1: Clone Repository
+git clone https://github.com/Preethijenitha/EEC-Course---LLM.git
+cd EEC-Course---LLM
+🔹 Step 2: Create Virtual Environment
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate   # Mac/Linux
+🔹 Step 3: Install Dependencies
+
+If you have requirements.txt:
+
 pip install -r requirements.txt
-##🔑 API Keys & Environment Variables
 
-Create a .env file in the project root and add your keys:
+Or install manually:
 
-GROQ_API_KEY=your_groq_api_key_here
+pip install langchain groq python-dotenv pydantic
+🔐 Environment Variables (IMPORTANT)
 
-This file must not be committed — it’s excluded by .gitignore.
+Create a .env file in the root directory:
 
-##📦 Usage
+GROQ_API_KEY=your_actual_api_key_here
 
-Run the main script:
+⚠️ Never push .env to GitHub
+⚠️ Always keep secrets in environment variables
+
+▶️ How to Run
+
+Run main script:
 
 python main.py
 
-Open specific modules for individual experiments:
+Run specific modules:
 
 python chain.py
 python conditional.py
-##💻 Development
+python parallel.py
+🛡️ Security Best Practices
 
-To contribute or add more LLM experiments:
+✔️ Use .gitignore properly
+✔️ Never expose API keys
+✔️ Regenerate keys if leaked
+✔️ Keep production secrets secure
 
-Fork the repository
+📈 Learning Outcomes
 
-Create a branch
+By working through this repository, you will understand:
 
-Add tests or docs
+How LLM workflows are structured
 
-Submit a pull request
+How to build modular AI pipelines
 
-##🔐 Security
+How to integrate external APIs securely
 
-Never commit .env
-
-Regenerate API keys if they’re ever leaked
-
-Use environment variable libraries (e.g., python-dotenv) for secure loading
+How to design scalable LLM applications
