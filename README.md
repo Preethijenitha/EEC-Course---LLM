@@ -94,28 +94,33 @@ LLM-Project/
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Preethijenitha/EEC-Course---LLM.git
 cd EEC-Course---LLM
 
  2️⃣ Create Virtual Environment (Recommended)
+
 ```bash
 python -m venv venv
 source venv/bin/activate      # Mac/Linux
 venv\Scripts\activate         # Windows
 
  3️⃣ Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 
 4️⃣ Add Environment Variables
 Create a .env file in the root directory:
+
 ```bash
 GROQ_API_KEY=your_api_key_here
 
 ▶️ Running the Project
+
 ```bash
 python main.py
+
 
