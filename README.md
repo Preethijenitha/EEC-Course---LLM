@@ -73,20 +73,23 @@ This repo is designed to serve as:
 ## 📂 Project Structure
 LLM-Project/
 │
-├── main.py              # Entry point
-├── groq_runner.py       # Groq API integration
-├── basics.py            # Basic LLM usage
-├── chain.py             # Sequential chain workflows
-├── conditional.py       # Conditional logic execution
-├── parallel.py          # Parallel runnable examples
-├── customtool.py        # Custom tool integration
-├── runnable.py          # Runnable pattern demonstrations
-├── typeddict.py         # Structured output with TypedDict
-├── pydan2.py            # Pydantic structured model example
-├── tool1.py             # Tool example 1
-├── tool2.py             # Tool example 2
-└── README.md            # Project documentation
-
+├── main.py            # Entry point of the application
+├── groq_runner.py     # Groq API integration layer
+├── basics.py          # Basic LLM usage examples
+├── chain.py           # Sequential chain workflows
+├── conditional.py     # Conditional logic execution
+├── parallel.py        # Parallel runnable examples
+├── runnable.py        # Runnable pattern demonstrations
+│
+├── customtool.py      # Custom tool integration
+├── tool1.py           # Tool example 1
+├── tool2.py           # Tool example 2
+│
+├── typeddict.py       # Structured output using TypedDict
+├── pydan2.py          # Structured output using Pydantic
+│
+├── requirements.txt   # Project dependencies
+└── README.md          # Project documentation
 ---
 
 ## ⚙️ Installation & Setup
@@ -104,3 +107,33 @@ venv\Scripts\activate         # Windows
 
 ### 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
+
+
+
+
+
+
+
+
+2️⃣ Create Virtual Environment (Recommended)
+🖥️ Mac / Linux
+python3 -m venv venv
+source venv/bin/activate
+
+
+
+python3 -m venv venv
+source venv/bin/activate
+🪟 Windows
+python -m venv venv
+venv\Scripts\activate
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+4️⃣ Add Environment Variables
+
+Create a .env file in the root directory:
+
+GROQ_API_KEY=your_api_key_here
+▶️ Running the Project
+python main.py
